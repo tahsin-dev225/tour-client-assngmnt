@@ -12,12 +12,11 @@ const Home = () => {
     const [spots,setSpots] =useState(loadedSpot)
 
     return (
-        <div>
+        <div className=" ">
             <Banner></Banner>
 
             <div className="mb-8 w-[96%] md:max-w-7xl mx-auto">
                 
-                {/* <Country spots={spots}></Country> */}
             </div>
 
             <h1 className="text-5xl mb-5 font-semibold text-center my-">Travel Spots</h1>

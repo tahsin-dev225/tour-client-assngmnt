@@ -21,7 +21,7 @@ const Spots = ({spot,spots,setSpots}) => {
           })
           .then(result =>{
             if(result.isConfirmed){
-            fetch(`https://tourism-server10.vercel.app/place/${_id}`,{
+            fetch(`https://tourism-server10.onrender.com/place/${_id}`,{
                 method:'DELETE'
             })
             .then(res =>res.json())

@@ -9,7 +9,7 @@ const Country = ({spots}) => {
 
     
     useEffect(()=>{
-        fetch('https://tourism-server10.vercel.app/place')
+        fetch('https://tourism-server10.onrender.com/place')
         .then(res=> res.json())
         .then(data => setCountry(data))
     },[])

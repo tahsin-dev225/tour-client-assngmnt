@@ -16,7 +16,7 @@ const Register = () => {
         .then(result =>{
             console.log(result.user)
             const user = {email}
-            fetch('https://tourism-server10.vercel.app/user',{
+            fetch('https://tourism-server10.onrender.com/user',{
                 method:'POST',
                 headers:{
                     'content-type' : 'application/json'
